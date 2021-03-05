@@ -1,26 +1,8 @@
+@import './layouts.css';
+
+/* GENERAL STYLES */
+
 body{
     margin: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.row, .col {
-    display: flex;
-}
-
-.container{
-    margin: 0 5%;
-}
-
-.container-fl{
-    max-width: 100%;
-}
-
-.row {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex-direction: column;
-    padding: 0 5%;
 }
