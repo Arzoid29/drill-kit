@@ -1,18 +1,65 @@
 /* LAYOUTS */
 @import "./rows.css";
 @import "./cols.css";
+@import "./containers.css";
+
+/*
+SM
+@media (min-width: 550px) { ... }
+
+MD
+@media (min-width: 768px) { ... }
+
+LG
+@media (min-width: 1000px) { ... }
+
+LX
+@media (min-width: 1200px) { ... }
+
+LXX
+@media (min-width: 1400px) { ... }
+*/
 
 .row, .col {
     display: flex;
 }
 
-.container{
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: aqua;
+
+@media (min-width: 550px) {
+    .container{
+        max-width: 515px;
+    }
+
 }
 
-.container-fl{
-    width: 100%;
-    background-color: aqua;
+@media (min-width: 768px) { 
+
+    .container-md, .container{
+        max-width: 720px;
+    }
+
+}
+
+@media (min-width: 1000px) { 
+
+    .container-md, .container, .container-lg{
+        max-width: 965px;
+    }
+
+}
+
+@media (min-width: 1200px) { 
+
+    .container-md, .container , .container-lg, .container-xl{
+        max-width: 1150px;
+    }
+
+}
+
+@media (min-width: 1400px) { 
+
+    .container-md, .container , .container-lg, .container-xl, .container-xxl{
+        max-width: 1350px;
+    }
+
 }

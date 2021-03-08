@@ -1,0 +1,13 @@
+
+/* All containers begin with 100% of width */
+
+.container, .container-md, .container-lg, .container-xl, .container-xxl{
+    margin: auto;
+    width: 100%;
+}
+
+/* CONTAINER FLUID */
+
+.container-fl{
+    width: 100%;
+}
