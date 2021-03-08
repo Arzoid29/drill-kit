@@ -21,9 +21,11 @@ h2 { font-size: calc(1em + 7vw); }
 
 h3 { font-size: calc(1em + 6vw); }
 
-/* h4 { font-size: calc(1em + 5vw); }
+h4 { font-size: calc(1em + 5vw); }
+
 h5 { font-size: calc(1em + 4vw); }
-h6 { font-size: calc(1em + 3vw); } */
+
+h6 { font-size: calc(1em + 3vw); }
 
 
 .muted-text { font-weight: lighter; }
