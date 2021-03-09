@@ -1,5 +1,4 @@
 /* LAYOUTS */
-
 @import "./rows.css";
 @import "./cols.css";
 @import "./containers.css";
@@ -7,20 +6,15 @@
 /*
 SM
 @media (min-width: 550px) { ... }
-
 MD
 @media (min-width: 768px) { ... }
-
 LG
 @media (min-width: 1000px) { ... }
-
 LX
 @media (min-width: 1200px) { ... }
-
 LXX
 @media (min-width: 1400px) { ... }
 */
-
 
 .row, .col {
     display: flex;
